@@ -1,0 +1,48 @@
+@import "../../scss/colors";
+
+.search {
+  $this: &;
+
+  width: 100;
+  background-color: $color-yellow;
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &__container-logo {
+    flex: 20%;
+  }
+
+  &__container-input {
+    flex: 80%;
+    display: flex;
+  }
+
+  &__searcher {
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+    color: $color-black;
+
+    &:focus {
+      outline-width: 0;
+    }
+  }
+
+  &__button {
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  &__icon-loupe {
+    fill: $color-black;
+    vertical-align: middle;
+  }
+
+  &__logo {
+    cursor: pointer;
+  }
+}

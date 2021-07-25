@@ -1,0 +1,79 @@
+@import "../../scss/colors";
+
+.product {
+  margin: 10px 10%;
+  display: flex;
+  background-color: $color-white;
+
+  &__container-description {
+    width: 70%;
+    padding: 10px 20px;
+  }
+
+  &__container-information {
+    width: 30%;
+    padding: 10px;
+  }
+
+  &__description-title {
+    color: $color-black;
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  &__description {
+    color: $color-gray;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__title {
+    color: $color-black;
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  &__price {
+    color: $color-black;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+
+  &__note {
+    color: $color-black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+
+  &__image {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 400px;
+  }
+
+  &__button {
+    background-color: $color-blue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+      border-color: transparent;
+      background-color: $color-blue-dark;
+      color: $color-white;
+    }
+  }
+
+  &__button-text {
+    color: $color-white;
+    font-size: 16px;
+  }
+}
