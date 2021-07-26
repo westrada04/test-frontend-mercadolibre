@@ -1,5 +1,8 @@
-# Background
+# Getting Started 
+- yarn
+- yarn start
 
+# Background
 Prueba tecnica frontend mercadolibre
 
 # Changes done
@@ -16,9 +19,5 @@ Prueba tecnica frontend mercadolibre
 # Note
 - En el doc se especifican los enpoints de /items, pero el enlace esta incorrecto, me tomo un tiempo identificar cuales eran las api's.
 
-# Getting Started 
-
-- yarn
-- yarn start
-
 # demo
+https://user-images.githubusercontent.com/6025259/127049833-e6954873-f604-4cb9-9878-80a8612a7240.mp4
