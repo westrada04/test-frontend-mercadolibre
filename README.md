@@ -1,8 +1,8 @@
 # Note
 - El campo decimals no lo pude identificar de la Api, asi que lo he dejado con valor 0 por default
-- con algo mas de tiempo, las fuentes y dimensiones en px, deberian basarse en unidades relativas como rem, lamentablemente no dispongo del tiempo para pdoer hacer el cambio.
+- Con algo mas de tiempo, las fuentes y dimensiones en px, deberian basarse en unidades relativas como rem, lamentablemente no dispongo del tiempo para poder hacer el cambio.
 - No se crearon los endpoints en node, para exponer un servicio, mas sin embargo en la carpeta services, se encuentra la logica de negocio de los mismos, por cuestion de tiempo no realice la interfaz de creacion de las nuevas api, "los servicios de mercadolibre igualmente se estan consumiendo"
-- en el doc se especifican los enpoints de /items, pero el enlace esta incorrecto, me tomo un tiempo identificar cuales eran las api's.
+- En el doc se especifican los enpoints de /items, pero el enlace esta incorrecto, me tomo un tiempo identificar cuales eran las api's.
 
 # Getting Started with Create React App
 
